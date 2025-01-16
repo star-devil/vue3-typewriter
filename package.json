@@ -52,5 +52,6 @@
     "not op_mini all",
     "not dead"
   ],
+  "github": "https://github.com/star-devil/vue3-typewriter",
   "license": "MIT"
 }
