@@ -6,7 +6,7 @@
 # vue3-text-typer
 
 适用于 vue3 中的打字机效果组件。
-![alt text](/public/20250115134511.gif)
+![打字机组件效果](./public/20250115134511.gif)
 
 ## Installation
 
