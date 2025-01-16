@@ -16,9 +16,8 @@ export default defineConfig({
     })
   ],
   build: {
-    emptyOutDir: false, // 避免dist被清空
     lib: {
-      entry: path.resolve(__dirname, 'src/index.ts'),
+      entry: path.resolve(__dirname, './src/index.ts'),
       name: 'lib',
       fileName: (format) => `lib.${format}.js`,
       formats: ['es', 'umd']
@@ -37,8 +36,17 @@ export default defineConfig({
     commonjsOptions: {
       transformMixedEsModules: true
     },
-    minify: false,
-    sourcemap: true
+    sourcemap: true,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true
+      },
+      format: {
+        comments: false // 删除注释comments
+      }
+    }
   },
   server: {
     host: '0.0.0.0',

@@ -4,9 +4,9 @@
   "description": "适用于 vue3 的打字机效果组件。速度和光标可控。",
   "type": "module",
   "files": [
-    "dist/*"
+    "dist"
   ],
-  "main": "./dist/index.js",
+  "main": "./dist/lib.umd.js",
   "module": "./dist/lib.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -28,6 +28,7 @@
     "@types/node": "^22.10.6",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
+    "terser": "^5.37.0",
     "typescript": "~5.6.2",
     "vite": "^6.0.5",
     "vite-plugin-dts": "^4.5.0",
@@ -53,5 +54,6 @@
     "not dead"
   ],
   "github": "https://github.com/star-devil/vue3-typewriter",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }

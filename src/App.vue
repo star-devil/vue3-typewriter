@@ -1,5 +1,7 @@
 <template>
-  <Typer />
+  <div>
+    <Typer />
+  </div>
 </template>
 
 <script lang="ts" setup>
