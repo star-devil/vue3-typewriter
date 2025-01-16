@@ -1,0 +1,56 @@
+{
+  "name": "vue3-text-typer",
+  "version": "0.1.0",
+  "description": "适用于 vue3 的打字机效果组件。速度和光标可控。",
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/lib.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/lib.es.js",
+      "require": "./dist/lib.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vite-plugin-dts": "^4.5.0",
+    "vue-tsc": "^2.2.0"
+  },
+  "keywords": [
+    "Vite",
+    "Vue3",
+    "TypeScript",
+    "Web",
+    "typewriter",
+    "typer",
+    "打字机"
+  ],
+  "author": "egg_star",
+  "engines": {
+    "node": ">=20"
+  },
+  "browserslist": [
+    "> 1%",
+    "not ie 11",
+    "not op_mini all",
+    "not dead"
+  ],
+  "license": "MIT"
+}
