@@ -1,12 +1,15 @@
-<!--
- * @Author: wangqiaoling
- * @LastEditors: wangqiaoling
- * @Description: 
--->
 # vue3-text-typer
 
 适用于 vue3 中的打字机效果组件。
-![打字机组件效果](./public/20250115134511.gif)
+![打字机组件效果](https://raw.githubusercontent.com/star-devil/vue3-typewriter/main/public/20250115134511.gif)
+
+## Links
+
+[![npm version](https://img.shields.io/npm/v/vue3-text-typer.svg)](https://www.npmjs.com/package/vue3-text-typer)
+[![npm downloads](https://img.shields.io/npm/dm/vue3-text-typer.svg)](https://www.npmjs.com/package/vue3-text-typer)
+[![GitHub license](https://img.shields.io/github/license/star-devil/vue3-typewriter.svg)](https://github.com/star-devil/vue3-typewriter/blob/main/LICENSE)
+
+[<git@github.com>:star-devil/vue3-typewriter.git](https://github.com/star-devil/vue3-typewriter.git)
 
 ## Installation
 
