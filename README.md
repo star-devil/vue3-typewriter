@@ -1,7 +1,7 @@
 # vue3-text-typer
 
 适用于 vue3 中的打字机效果组件。
-![打字机组件效果](https://github.com/star-devil/vue3-typewriter/blob/main/src/assets/imgs/20250115134511.gif?raw=true)
+![打字机组件效果](./src/assets/imgs/20250115134511.gif)
 
 ## Links
 
