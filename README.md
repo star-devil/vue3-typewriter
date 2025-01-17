@@ -7,7 +7,6 @@
 
 [![npm version](https://img.shields.io/npm/v/vue3-text-typer.svg)](https://www.npmjs.com/package/vue3-text-typer)
 [![npm downloads](https://img.shields.io/npm/dm/vue3-text-typer.svg)](https://www.npmjs.com/package/vue3-text-typer)
-[![GitHub license](https://img.shields.io/github/license/star-devil/vue3-typewriter.svg)](https://github.com/star-devil/vue3-typewriter/blob/main/LICENSE)
 
 `npm pacakge-name：vue3-text-typer`
 `github repo-name: vue3-typewriter`
