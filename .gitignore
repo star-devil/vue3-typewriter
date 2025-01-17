@@ -23,4 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-src/index.ts
+/src/index.ts
